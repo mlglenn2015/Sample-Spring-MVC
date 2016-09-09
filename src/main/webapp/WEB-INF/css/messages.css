@@ -1,0 +1,290 @@
+
+.contentWrapper{
+    background-color: #ffffcc;
+    border:1px solid black;
+    border-radius: 5px;
+    margin: auto;
+}
+
+label{
+    width: 180px;
+}
+
+#contentWrapperQ1Div{
+    background-color: #fffffc;
+    border:1px solid black;
+    border-radius: 5px;
+    color: #000000;
+    height: 500px;
+    position: relative;
+    left: 20px;
+    top: 15px;
+    width:600px;
+}
+#contentHeaderQ1Div{
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    text-align: center;
+}
+#contentInnerQ1Div{
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+}
+#gridQ1Div{
+    height: 430px;
+    margin: 1px 1px 1px 1px;
+    overflow: auto;
+    padding: 1px 1px 1px 1px;
+    width:590px;
+}
+
+#contentWrapperQ2Div{
+    background-color: #cccccc;
+    border:1px solid black;
+    border-radius: 5px;
+    color: #000000;
+    height: 500px;
+    position: relative;
+    left:630px;
+    top:-487px;
+    width:600px;
+}
+#contentHeaderQ2Div{
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+}
+#contentInnerQ2Div{
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+}
+#gridQ2Div{
+    border: 1px;
+}
+
+#contentWrapperQ3Div{
+    background-color: #ffffff;
+    border:1px solid black;
+    border-radius: 5px;
+    color: #000000;
+    height: 500px;
+    position: relative;
+    left: 1240px;
+    top: -989px;
+    width:340px;
+}
+#contentHeaderQ3Div{
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+}
+#contentInnerQ3Div{
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+}
+#gridQ3Div{
+    border: 1px;
+}
+
+#contentWrapperQ4Div{
+    background-color: #cccccc;
+    border:1px solid black;
+    border-radius: 5px;
+    color: #000000;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    top: -980px;
+    width:1560px;
+}
+#contentHeaderQ4Div{
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+}
+#contentInnerQ4Div{
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+}
+#gridQ4Div{
+    border: 1px;
+}
+
+#editFormQ1{
+    background-color: #7fa0ff;
+    border:1px solid black;
+    border-radius: 5px;
+    color: #000000;
+    height: 350px;
+    position: relative;
+    left: 600px;
+    top: -760px;
+    visibility: hidden;
+    width:650px;
+}
+
+#productsDiv{
+    width:1130px;
+}
+
+#ButtonsDiv{
+    margin-bottom: 10px;
+}
+
+#newButton{
+    display: none;
+}
+
+#innerContentTitle{
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 5px 5px 5px;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+}
+
+#outerContentDiv{
+    background-color: #7fa0ff;
+    border-radius: 5px;
+    height: 900px;
+    padding: 5px 4px 4px 4px;
+    width:1600px;
+}
+
+#outerContentTitle{
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 5px 5px 5px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+#refreshGridButton{
+    display: none;
+    float: right;
+}
+
+.columnHead {
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 2px;
+    padding: 0 5px;
+    text-align: left;
+}
+
+.formFieldWrapper{
+    margin-bottom: 5px;
+    overflow: hidden;
+    width:450px;
+    max-width:450px;
+    display: inline-block;
+}
+
+#messagesBoxHeader{
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 0px;
+    padding: 0 0px;
+    position: relative;
+    left: 600px;
+    top: -960px;
+    text-align: center;
+}
+
+#messagesBoxData{
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 0px;
+    padding: 0 0px;
+    text-align: center;
+}
+
+.messagesTable{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: inherit;
+}
+
+.tableHeadCol1 {
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 5px;
+    text-align: left;
+    width: 150px;
+}
+.tableHeadCol2 {
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 5px;
+    text-align: left;
+    width: 600px;
+}
+.tableHeadCol3 {
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 5px;
+    text-align: center;
+    width: 100px;
+}
+.tableHeadCol4 {
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 5px;
+    text-align: left;
+    width: 100px;
+}
+
+.tableCellCol1 {
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 5px;
+    text-align: left;
+    width: 150px;
+}
+.tableCellCol2 {
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 5px;
+    text-align: left;
+    width: 600px;
+}
+.tableCellCol3 {
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 5px;
+    text-align: center;
+    width: 100px;
+}
+.tableCellCol4 {
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 5px;
+    text-align: left;
+    width: 100px;
+}

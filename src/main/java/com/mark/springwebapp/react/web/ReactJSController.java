@@ -19,9 +19,4 @@ public class ReactJSController {
         return "hello";
     }
 
-    @RequestMapping(value = "/reactJS", method = RequestMethod.GET)
-    public String printReactJS(ModelMap model) {
-        model.addAttribute("message", "Hello Spring MVC Framework!");
-        return "reactJS";
-    }
 }

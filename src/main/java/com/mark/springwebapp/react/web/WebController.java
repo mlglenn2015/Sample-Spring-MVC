@@ -16,10 +16,23 @@ public class WebController {
         return "index";
     }
 
+    /* Example: http://localhost:12001/error */
+    @RequestMapping(value = "/error", method = RequestMethod.GET)
+    public String error() {
+        return "error";
+    }
+
     /* Example: http://localhost:12001/staticPage */
     @RequestMapping(value = "/staticPage", method = RequestMethod.GET)
-    public String redirect() {
+    public String redirectFinal() {
 
-        return "redirect:/pages/final.htm";  // http://localhost:12001/pages/final.htm
+        return "redirect:/pages/final.html";  // http://localhost:12001/pages/final.html
+    }
+
+    /* Example: http://localhost:12001/myAppPage */
+    @RequestMapping(value = "/myAppPage", method = RequestMethod.GET)
+    public String redirectMyApp() {
+
+        return "redirect:/pages/myApp.html";  // http://localhost:12001/pages/myApp.html
     }
 }
