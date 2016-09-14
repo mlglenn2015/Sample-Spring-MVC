@@ -4,6 +4,7 @@
     border: none;
     border-radius: 100%;
     color: white;
+    cursor: pointer;
     padding: 0px;
     text-align: center;
     text-decoration: none;
@@ -15,6 +16,7 @@ body {
     background: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
+    height: 840px;
     line-height: 1.7;
     margin: 0;
     padding: 30px;
